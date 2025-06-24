@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dibujos - Rulos Rochio</title>
+   <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Quicksand', sans-serif;
+      background: linear-gradient(to bottom right, #fffbe6, #fff3b0);
+      margin: 0;
+      padding: 2rem;
+    }
+    h1 {
+      text-align: center;
+      color: #402c00;
+      font-family: 'Pacifico', cursive;
+      font-size: 2.5rem;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    .art-card {
+      border: 2px solid #ffc857;
+      border-radius: 12px;
+      padding: 1rem;
+      background: linear-gradient(to top right, #fff, #ffeec0);
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    .art-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    }
+    .art-card img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .art-card h3 {
+      margin-top: 0.5rem;
+      color: #8c4b00;
+    }
+    .art-card p {
+      color: #5c3d00;
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>Mis Dibujos</h1>
+  <div class="gallery">
+    <div class="art-card">
+      <img src="whisplash.jpeg" alt="Dibujo 1">
+      <h3>FANART</h3>
+      <p>Tecnica acuarela</p>
+    </div>
+    <div class="art-card">
+      <img src="abu.jpeg" alt="Dibujo 2">
+      <h3>Pajarito</h3>
+      <p>Tecnica acuarela</p>
+    </div>
+    <div class="art-card">
+      <img src="batman.jpeg" alt="Dibujo 3">
+      <h3>Fanart Batman</h3>
+      <p>Lápiz + marcador</p>
+    </div>
+    <div class="art-card">
+      <img src="viejogato.jpeg" alt="Dibujo 4">
+      <h3>Agua</h3>
+      <p>Lapiz</p>
+    </div>
+    <div class="art-card">
+      <img src="gta.jpeg" alt="Dibujo 5">
+      <h3> FANART</h3>
+      <p>Tecnica acuarela</p>
+    </div>
+    <div class="art-card">
+      <img src="micha.jpeg" alt="Dibujo 6">
+      <h3> FANART M.J</h3>
+      <p>Lapiz + Marcador</p>
+    </div>
+    <div class="art-card">
+      <img src="pasteloleo.jpeg" alt="Dibujo 7">
+      <h3> Emociones</h3>
+      <p>Pastel al oleo</p>
+    </div>
+    <div class="art-card">
+      <img src="https://via.placeholder.com/300x400?text=Dibujo+8" alt="Dibujo 8">
+      <h3>Dibujo 8</h3>
+      <p>Obra en proceso</p>
+    </div>
+    <div class="art-card">
+      <img src="https://via.placeholder.com/300x400?text=Dibujo+9" alt="Dibujo 9">
+      <h3>Dibujo 9</h3>
+      <p>Obra en proceso</p>
+    </div>
+    <div class="art-card">
+      <img src="https://via.placeholder.com/300x400?text=Dibujo+10" alt="Dibujo 10">
+      <h3>Dibujo 10</h3>
+      <p>Obra en proceso</p>
+    </div>
+  </div>
+</body>
+</html>
